@@ -1,0 +1,20 @@
+{
+    "name": "Brainly Bypass",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Simple Brainly Bypass script made by Bartuś (Luc1fer)",
+    "author": "Bartuś",
+    "icons": {
+        "128": "brainly.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://brainly.pl/*", "http://brainly.pl/*"],
+            "js": ["skrypt.js"]
+        }
+    ],
+    "browser_action": {
+        "default_popup": "gui.html",
+        "default_title": "Brainly Bypass"
+    }
+}
