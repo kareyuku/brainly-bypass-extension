@@ -1,1 +1,0 @@
-window.localStorage.setItem('flexible-funnel-previews', {})
